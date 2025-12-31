@@ -2,37 +2,57 @@
 🔭 Telescope Ranging & Observation Readiness System
 
 A Data-Driven Approach to Atmospheric Suitability for Astronomical Observations
-
 📌 Overview
 
-Modern astronomical observations are highly sensitive to environmental and atmospheric conditions. Even with high-precision telescopes, factors such as cloud cover, humidity, wind instability, and atmospheric turbulence can significantly reduce observational accuracy.
+Astronomical observations are critically dependent on atmospheric stability and environmental conditions. Even with advanced optical instruments, unfavorable weather parameters—such as high cloud cover, humidity, wind speed, or poor visibility—can render telescope sessions ineffective.
 
-This project presents a software-based telescope ranging and readiness system that evaluates real-time and historical weather data to determine whether a telescope should be deployed for observation at a given location and time.
+The Telescope Weather Conditions App is a Python–Flask–based web application designed to evaluate, predict, and quantify the suitability of weather conditions for telescope deployment. By integrating real-time weather APIs, multi-year historical climate data, and a deterministic scoring algorithm, the system provides a clear, actionable readiness score for telescope viewing.
 
-The system is implemented as a Python + Flask web application, combining API-driven weather ingestion, historical climate analysis, and a deterministic scoring algorithm to assist astronomers, researchers, and hobbyists in decision-making before telescope deployment.
+This project focuses on the pre-observation decision layer, a crucial yet often overlooked component of astronomical workflows.
+🎯 The “Why” — Research Motivation
 
-🎯 The “Why” — Motivation Behind the Project
+In practical astronomy, the atmosphere is often the weakest link in the observation chain. Through academic study and experimentation, the following gaps were identified:
 
-Astronomy is not limited by telescope optics alone; it is fundamentally constrained by the Earth’s atmosphere.
+Raw weather data is difficult to interpret for observational readiness
 
-During my academic exploration, I observed that:
+Telescope sessions are frequently planned without quantitative validation
 
-Telescope sessions are often planned without quantitative environmental validation
+Dependence on live APIs makes systems unreliable in remote locations
 
-Raw weather data is difficult to interpret for observational suitability
+This project was motivated by three core objectives:
 
-Many systems depend solely on real-time data, making them unreliable offline
+Transform complex atmospheric data into a clear decision metric
 
-This project was motivated by three core goals:
+Apply software engineering principles to real scientific problems
 
-Translate complex atmospheric data into a clear, actionable decision
+Ensure reliability through offline-capable system design
 
-Bridge software engineering with applied astronomy
+Rather than controlling telescope hardware directly, this project addresses the critical question of when and where a telescope should be used, which is foundational to professional astronomy.
+✨ Key Features
 
-Design a system that remains functional even without live internet access
+Real-time Weather Data
+Live weather conditions via API with automatic CSV fallback
 
-Rather than controlling telescope hardware directly, this project focuses on the critical pre-observation decision layer, which is often overlooked but scientifically essential.
+Telescope Viewing Prediction Engine
+Intelligent scoring system (0–100) indicating observation suitability
 
+5-Day Forecast Analysis
+Short-term predictions with daily telescope readiness scores
+
+Historical Climate Analysis
+Analysis of 7+ years of ISRO weather station data (2012–2019)
+
+Multi-Location Support
+Beluwakhan, Nainital, Delhi, and Mumbai
+
+Offline Capability
+Fully functional using historical CSV data
+
+Data Export
+CSV export for academic analysis and reporting
+
+Interactive UI
+Space-themed interface with animated starfield
 ⚙️ Technical Challenges Addressed
 
 The system explicitly models and solves the following real-world telescope observation challenges:
