@@ -119,6 +119,23 @@ Classify conditions:
     - Poor
         ↓
 Display results + allow data export
+User selects location
+        ↓
+Fetch real-time weather data
+        ↓
+If API unavailable:
+    Load historical CSV data
+        ↓
+Normalize weather parameters
+        ↓
+Apply weighted scoring algorithm
+        ↓
+Generate telescope readiness score (0–100)
+        ↓
+Classify conditions:
+    Excellent | Good | Poor
+        ↓
+Display results and allow CSV export
 
 📊 Scoring Intelligence
 
@@ -244,7 +261,6 @@ IoT-based telescope automation
 Cloud deployment for observatories
 
 👤 Author
-
+Parth Joshi
 Medhansh Nayal
-Final Year Engineering Student
-Interests: Scientific Computing, Astronomy, Data Systems
+Gaurav Bhandari
