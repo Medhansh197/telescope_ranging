@@ -434,8 +434,8 @@ python calibrate_vibration.py --duration 300
 ## 📞 Contact & Collaboration
 
 **Research Team Contact:**
-- **System Integration:** [Medhansh Nayal] - Team Leader, Lead Developer & Research
-- **Algorithm Development:** [Parth Joshi] - Data Analysis & Research  
+- **System Integration:** [Medhansh Nayal] - Lead Developer & Research
+- **Algorithm Development:** [Parth Joshi] - Team Leader,Data Analysis,Lead Communicator & Research  
 - **Field Validation:** [Gaurav Bhandari] - Research Specialist
 
 **Project Repository:** https://github.com/Medhansh197/telescope_ranging
