@@ -10,7 +10,7 @@
 
 | **Author** | **Role** | **Expertise** |
 |------------|----------|---------------|
-| **Parth Joshi** | Lead Data Analysis & Research | Statistical modeling, ranging algorithms, precision measurement analysis |
+| **Parth Joshi** | Team Leader, Lead Data Analysis & Lead Communicator | Statistical modeling, ranging algorithms, precision measurement analysis |
 | **Medhansh Nayal** | Lead Developer & Research | System architecture, control algorithms, hardware-software integration |
 | **Gaurav Bhandari** | Research Specialist | Astronomical mechanics, tracking theory, field validation protocols |
 
