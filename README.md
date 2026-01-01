@@ -434,7 +434,7 @@ python calibrate_vibration.py --duration 300
 ## 📞 Contact & Collaboration
 
 **Research Team Contact:**
-- **System Integration:** [Medhansh Nayal] - Lead Developer & Research
+- **System Integration:** [Medhansh Nayal] - Team Leader, Lead Developer & Research
 - **Algorithm Development:** [Parth Joshi] - Data Analysis & Research  
 - **Field Validation:** [Gaurav Bhandari] - Research Specialist
 
